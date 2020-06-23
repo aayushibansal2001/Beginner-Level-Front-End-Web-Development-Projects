@@ -1,0 +1,105 @@
+body,html{
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family:'Parisienne', 'cursive';
+}
+
+
+.drag{
+background:url("https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id613518332?k=6&m=613518332&s=612x612&w=0&h=Own5MdgJXjNhFd0YUyED1UP3mQsHeNhfML9F-DQYdYw=");
+height:100%;
+background-position:center;
+background-size:cover;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.feedback{
+padding:30px;
+background: linear-gradient(90deg,rgb(186,186,189)0%,rgba(230,237,235,0.011)100%);
+font-style:sans-serif;
+width:30%;
+border-radius:15px;
+border-bottom:2px solid pink;
+border-right:2px solid pink;
+box-shadow:3px 3px 5px pink;
+}
+@media only screen and (max-width: 768px) {
+  .feedback{
+    width:60%;
+	height:70%;
+  }
+}
+#form-contact{
+margin-top:5px;
+font-size: 2em;
+font-weight:bold;
+color:black;
+font-family:'Times';
+}
+#rname, #email, #submit,#subject,textarea{
+border:1px solid black;
+padding:10px;
+margin:5px;
+border-radius:5px;	
+}
+#rname,#email,#subject,textarea{
+	width:80%;
+}
+#submit{
+	padding:15px;
+	background-color:white;
+	font-weight:bold;
+}
+#submit :hover{
+	cursor:pointer;
+	background-color:pink;
+	color:black;
+	border:2px solid white;
+}
+#rname:focus,email:focus, textarea:focus{
+	background-color:#d9d9d9;
+	color:black;
+	border:2px solid white;
+}
+	
+.content{
+overflow:visible;
+position:relative;
+}
+.content:before{
+content:"";
+position:fixed;
+right:0;
+left=0;
+z-index:-1;
+display:block;
+background-image:url("https://image.freepik.com/free-psd/abstract-background-design_1297-73.jpg");
+background-size:cover;
+width:100%;
+height:100vh;
+filter:blur(5px);
+}
+.blog-wrap{
+width:75%;
+max-width:500px;
+margin:20px auto;
+background-color:#EEE;
+padding: 20px;
+box-shadow:2px 2px 5px black;	
+	
+}
+.blog-wrap img{
+width:100%;
+overflow:hidden;
+}
+.blog-wrap h2{
+text-align:center;
+margin:10px;
+}
+.blog-wrap p{
+margin:10px;
+font-size:1em;
+height:100%;
+}	

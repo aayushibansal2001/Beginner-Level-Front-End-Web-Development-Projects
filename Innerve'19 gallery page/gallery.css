@@ -1,0 +1,79 @@
+
+body { 
+  background:  url(images/light.png); 
+  }
+ h1 { 
+ 
+  font-family:  'Jenna Sue', arial, sans-serif;
+  padding: 1px 0 0 180px;
+  font-size: 350%;
+ 
+  }
+ 
+/* vertical height of the white box*/  
+div.controls {
+  height: 35px;
+    
+ }
+ 
+ /* padding between the white box and the image section*/ 
+#thumb-container {
+  padding: 35px 35px 0 50px;}
+  
+#site_content { 
+  background: white;}
+  
+  
+/* the white box*/
+#main { 
+  width: 950px;
+  margin: 30px auto;}
+  
+ .image{
+
+	 padding: 2px 2px 2px 2px;
+
+ }
+ @media screen and (max-width:800px) {
+  #thumb-container,  #main {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
