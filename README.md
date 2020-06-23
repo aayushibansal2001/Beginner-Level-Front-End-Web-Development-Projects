@@ -6,8 +6,8 @@ This repository contains some beginner level front-end web development projects 
 
 It contains some projects such as:
 
-*Blog Page
-*Contact Us Page
-*Google Homepage
-*Innevere IGDTUW 2019 Gallery Page 
-*Taarangana IGDTUW 2020 Events Page
+* Blog Page
+* Contact Us Page
+* Google Homepage
+* Innevere IGDTUW 2019 Gallery Page 
+* Taarangana IGDTUW 2020 Events Page
